@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<SmartSqlMapConfig xmlns="http://SmartSql.net/schemas/SmartSqlMapConfig.xsd">
+  <Settings IgnoreParameterCase="false" ParameterPrefix="@" IsCacheEnabled="true"/>
+  <Properties>
+    <Property Name="ConnectionString" Value="server=127.0.0.1;database=viper;uid=bif;pwd=123456;SslMode=None;"/>
+  </Properties>
+  <Database>
+    <DbProvider Name="MySql"/>
+    <Write Name="WriteDB" ConnectionString="${ConnectionString}"/>
+    <Read Name="ReadDb-1" ConnectionString="${ConnectionString}" Weight="100"/>
+  </Database>
+  <IdGenerator Type="SnowflakeId">
+    <Properties>
+      <Property Name="WorkerIdBits" Value="10"/>
+      <Property Name="WorkerId" Value="888"/>
+      <Property Name="Sequence" Value="14"/>
+    </Properties>
+  </IdGenerator>
+  <SmartSqlMaps>
+    <SmartSqlMap Path="Maps" Type="Directory"/>
+  </SmartSqlMaps>
+</SmartSqlMapConfig>

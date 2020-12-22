@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Anno.EngineData" Version="1.0.2.8" />
+    <PackageReference Include="SmartSql" Version="4.1.57" />
+    <PackageReference Include="SmartSql.Schema" Version="4.1.30" />
+    <PackageReference Include="SmartSql.AOP" Version="4.1.57" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Infrastructure\Infrastructure\Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>

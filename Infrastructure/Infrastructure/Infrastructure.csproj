@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="MySql.Data" Version="8.0.22" />
+    <PackageReference Include="SmartSql" Version="4.1.57" />
+    <PackageReference Include="SmartSql.Cache.Redis" Version="4.1.57" />
+    <PackageReference Include="SmartSql.DIExtension" Version="4.1.57" />
+    <PackageReference Include="SmartSql.DyRepository" Version="4.1.57" />
+    <PackageReference Include="SmartSql.InvokeSync" Version="4.1.57" />
+    <PackageReference Include="SmartSql.Schema" Version="4.1.30" />
+  </ItemGroup>
+</Project>
