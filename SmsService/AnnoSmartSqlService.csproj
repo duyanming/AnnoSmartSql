@@ -5,9 +5,9 @@
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Anno.EngineData" Version="1.0.2.8" />
-    <PackageReference Include="Anno.Plugs.MonitorService" Version="1.0.0" />
-    <PackageReference Include="Anno.Rpc.Server" Version="1.0.2.7" />
+    <PackageReference Include="Anno.EngineData" Version="1.0.3.3" />
+    <PackageReference Include="Anno.Plugs.MonitorService" Version="1.0.3.3" />
+    <PackageReference Include="Anno.Rpc.Server" Version="1.0.3.3" />
     <PackageReference Include="Microsoft.Extensions.Logging" Version="5.0.0" />
   </ItemGroup>
   <ItemGroup>

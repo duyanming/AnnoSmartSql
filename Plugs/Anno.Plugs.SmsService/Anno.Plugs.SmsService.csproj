@@ -5,7 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Anno.EngineData" Version="1.0.2.8" />
+    <PackageReference Include="Anno.EngineData" Version="1.0.3.3" />
     <PackageReference Include="SmartSql" Version="4.1.57" />
     <PackageReference Include="SmartSql.Schema" Version="4.1.30" />
     <PackageReference Include="SmartSql.AOP" Version="4.1.57" />

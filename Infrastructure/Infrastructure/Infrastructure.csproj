@@ -4,7 +4,7 @@
     <TargetFramework>netstandard2.0</TargetFramework>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="MySql.Data" Version="8.0.22" />
+    <PackageReference Include="MySql.Data" Version="8.0.23" />
     <PackageReference Include="SmartSql" Version="4.1.57" />
     <PackageReference Include="SmartSql.Cache.Redis" Version="4.1.57" />
     <PackageReference Include="SmartSql.DIExtension" Version="4.1.57" />
